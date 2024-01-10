@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //get the data from the api and display them to the html
 function get_data_n_display(){
-    console.log("YOOOOOO!!!");
+
+    
     //get the html elements
     const title =  document.getElementById('picture-title');
     const image = document.getElementById('img');

@@ -8,17 +8,13 @@
     }
     100%{
         opacity: 1;
-        bottom: 30px;
+        bottom: 20px;
     }
     
 }
 
 #intro{
     width:100%;
-    /*background-image: url('spacee-scaled.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;*/
 }
 
 #about{
@@ -26,10 +22,11 @@
 }
 
 #title{
-    /*animation-name: moveup;
+    animation-name: moveup;
     animation-fill-mode: forwards;
-    animation-duration: 2s;*/
+    animation-duration: 2s;
 
+    position: relative;
     color: rgb(166, 95, 181);
     font-family: "Archivo Black", Helvetica, sans-serif;
     font-weight: bold;
@@ -45,10 +42,6 @@
 }
 
 #text-center{
-    animation-name: moveup;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
-
     position: relative ;
     top:25%;
 }
@@ -60,7 +53,7 @@
     animation-play-state: paused;
 
     position: relative;
-    top:35%;
+    top:50%;
     font-size: 25px;
     color: rgb(166, 95, 181);
 }
@@ -68,4 +61,9 @@
 
 #picture-title, #description-a{
     font-size: 20px;
+}
+
+#smth{
+    font-size: 30px;
+    color: rgb(166, 95, 181);
 }
