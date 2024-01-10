@@ -1,0 +1,71 @@
+@keyframes moveup {
+    0%{
+        opacity: 0;
+        bottom: 0px;
+    }
+    55%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        bottom: 30px;
+    }
+    
+}
+
+#intro{
+    width:100%;
+    /*background-image: url('spacee-scaled.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;*/
+}
+
+#about{
+    display: none;
+}
+
+#title{
+    /*animation-name: moveup;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;*/
+
+    color: rgb(166, 95, 181);
+    font-family: "Archivo Black", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#btn{
+    width: 300px;
+}
+
+#btn:hover{
+    background-color: rgb(168, 121, 212);
+}
+
+#text-center{
+    animation-name: moveup;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+
+    position: relative ;
+    top:25%;
+}
+
+#icon{
+    animation-name: moveup;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-play-state: paused;
+
+    position: relative;
+    top:35%;
+    font-size: 25px;
+    color: rgb(166, 95, 181);
+}
+
+
+#picture-title, #description-a{
+    font-size: 20px;
+}
