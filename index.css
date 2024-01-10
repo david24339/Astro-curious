@@ -59,11 +59,19 @@
 }
 
 
-#picture-title, #description-a{
-    font-size: 20px;
+#picture-title{
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 #smth{
     font-size: 30px;
     color: rgb(166, 95, 181);
+}
+
+#description-a{
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
 }
