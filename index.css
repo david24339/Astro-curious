@@ -46,6 +46,7 @@
     top:25%;
 }
 
+/*Icon for bigger screen */
 #icon{
     animation-name: moveup;
     animation-fill-mode: forwards;
@@ -58,6 +59,16 @@
     color: rgb(166, 95, 181);
 }
 
+/*Icon for bigger screen for small screen*/
+#icon-small{
+    animation-name: moveup;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-play-state: paused;
+
+    font-size: 20px;
+    color: rgb(166, 95, 181);
+}
 
 #picture-title{
     font-size: 30px;

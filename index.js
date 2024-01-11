@@ -19,6 +19,7 @@ function get_data_n_display(){
     const description = document.getElementById('description-y');
     const icon = document.getElementById('icon');
     const about = document.getElementById('about');
+    const iconsm = document.getElementById('icon-small'); 
 
     fetch("https://api.nasa.gov/planetary/apod?api_key=LMfjrwPr2xq2LXcYLoCuR76TFjDWoXGNmeSCM5QA")
     .then(response => response.json())
@@ -29,8 +30,14 @@ function get_data_n_display(){
         console.log(st);
 
         document.getElementById('btn').style.display = 'none';
-        about.style.display = 'block';
-        icon.style.animationPlayState = 'running';
+        if(window.innerWidth > 576){
+            about.style.display = 'block';
+            icon.style.animationPlayState = 'running';
+        }
+        else{
+            about.style.display = 'block';
+            iconsm.style.animationPlayState = 'running';
+        }
 
     })
     .catch(error => {
