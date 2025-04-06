@@ -15,7 +15,7 @@
 ## 🌐 Live Demo
 
 Check it out live here:  
-🔗 [Link](https://your-github-username.github.io/AstroCurious)
+🔗 [Link](https://david24339.github.io/Astro-curious/)
 
 
 ## 🧠 Tech Stack
