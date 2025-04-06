@@ -15,11 +15,8 @@
 ## 🌐 Live Demo
 
 Check it out live here:  
-🔗 [https://your-github-username.github.io/AstroCurious](https://your-github-username.github.io/AstroCurious)
+🔗 [Link](https://your-github-username.github.io/AstroCurious)
 
-*(Replace with your actual GitHub Pages link)*
-
----
 
 ## 🧠 Tech Stack
 
